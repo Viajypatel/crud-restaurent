@@ -1,4 +1,4 @@
-# Restaurant Management API
+# crud-for-restaurent
 
 This is a RESTful API for managing restaurants, allowing users to perform CRUD operations, user authentication, and restaurant searches based on proximity and range.
 
@@ -48,7 +48,7 @@ Make sure you have the following installed on your machine:
 
    ```bash
    git clone <repository-url>
-   cd restaurant-management-api
+   cd  crud-for-restaurent
 npm install
 MONGO_URI=<your-mongodb-connection-string>
 JWT_SECRET=<your-secret-key>
@@ -63,7 +63,7 @@ he server will run on http://localhost:5000 by default.
 To test the API, you can use tools like Postman or Thunder Client.
 
 API Endpoints
-Authentication
+Authentication and Authorization
 
 POST /api/auth/register
 
